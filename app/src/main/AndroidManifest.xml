@@ -16,6 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApplication">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity android:name=".SecondActivity" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -32,7 +36,6 @@
         <activity
             android:name=".drivers.DriverView"
             android:label="@string/title_activity_driver_view"></activity>
-        <activity android:name=".SecondActivity" />
         <activity android:name=".recycling.RecyclingActivity"></activity>
         <activity
             android:name=".MainActivity"
